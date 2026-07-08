@@ -6,12 +6,12 @@ import { Outlet } from "react-router-dom";
 
 const navigation = [
     { name: "Home", href: "/", },
-    { name: "About", href: "/about",  },
-    { name: "Nature", href: "/nature",  },
-    { name: "Photography", href: "/photography",  },
-    { name: "Travel", href: "/travels",  },
+    { name: "About", href: "/about", },
+    { name: "Nature", href: "/nature", },
+    { name: "Photography", href: "/photography", },
+    { name: "Travel", href: "/travels", },
     { name: "Music", href: "/music" },
-    { name: "Arts", href: "/arts",  },
+    { name: "Arts", href: "/arts", },
 ];
 const Sidebar = () => {
     return (
@@ -32,13 +32,13 @@ const Sidebar = () => {
                         <p className="text-xs text-gray-300 text-center">Full Stack Developer</p>
                     </div>
 
-                    <div className="mt-8">
+                    {/*                     <div className="mt-8">
                         <p className="font-medium text-xs md:text-sm text-center text-teal-500">
                             <a href="https://corpzbrideee02.github.io/">
                                 corpzbrideee02.github.io
                             </a>
                         </p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="mt-10 mb-4 max-sm:mt-0 max-sm:text-xs ">
