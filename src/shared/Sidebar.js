@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 
 const navigation = [
     { name: "Home", href: "/", },
-    { name: "About", href: "/about", },
+    // { name: "About", href: "/about", },
     { name: "Nature", href: "/nature", },
     { name: "Photography", href: "/photography", },
     { name: "Travel", href: "/travels", },
@@ -28,8 +28,8 @@ const Sidebar = () => {
                         <h1 className="font-medium text-xl  text-center text-teal-500">
                             Dianne Corpuz
                         </h1>
-                        <p className="text-xs text-gray-300 text-center">Software Developer /</p>
-                        <p className="text-xs text-gray-300 text-center">Full Stack Developer</p>
+                        <p className="text-xs text-gray-300 text-center">Software Developer </p>
+                        {/* <p className="text-xs text-gray-300 text-center">Full Stack Developer</p> */}
                     </div>
 
                     {/*                     <div className="mt-8">
