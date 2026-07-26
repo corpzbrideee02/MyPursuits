@@ -15,7 +15,7 @@ const navigation = [
 ];
 const Sidebar = () => {
     return (
-        <div className="flex min-h-screen flex-row h-screen">
+        <div className="flex min-h-screen flex-row h-screen" style="height:100%">
             <aside className="md:w-64 transform bg-neutral-900 transition-transform duration-150 ease-in md:translate-x-0 md:shadow-md ">
                 {/* place sidebar here */}
                 <div id="profile" className="mt-10 max-sm:mt-0 max-sm:invisible md:visible">
